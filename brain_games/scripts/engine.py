@@ -4,11 +4,11 @@ from brain_games.cli import welcome_user
 from brain_games.scripts.brain_games import greet
 
 
-def engine(game, INSTRUCTION):
+def engine(game, instruction):
 
     greet()
     name = welcome_user()
-    print(INSTRUCTION)
+    print(instruction)
     count = 0
     for i in range(3):
         question, answer = game()
