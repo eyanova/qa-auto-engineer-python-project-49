@@ -12,3 +12,6 @@ package-install:
 
 prompt-install:
 	uv add prompt
+
+lint:
+	uv run ruff check brain_games

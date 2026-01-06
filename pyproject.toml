@@ -1,11 +1,10 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "The best games for geeks"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "hexlet-code",
     "prompt",
 ]
 
@@ -19,5 +18,15 @@ packages = ["brain_games"]
 [tool.uv.sources]
 hexlet-code = { path = "dist/hexlet_code-0.1.0-py3-none-any.whl" }
 
+[dependency-groups]
+dev = [
+    "ruff",
+]
+
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
