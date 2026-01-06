@@ -3,8 +3,6 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eyanova_qa-auto-engineer-python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eyanova_qa-auto-engineer-python-project-49)
 
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=eyanova_qa-auto-engineer-python-project-49)](https://sonarcloud.io/summary/new_code?id=eyanova_qa-auto-engineer-python-project-49)
-
 Приложение включает в себя 5 консольных игр, которые запускаются через специальную команду в терминале. 
 Запуск рекомендуется проводить через uv tool install.
 По всем вопросам - tg @kori4k
